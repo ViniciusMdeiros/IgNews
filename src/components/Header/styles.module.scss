@@ -33,13 +33,13 @@
           &:hover {
             color: var(--white);
           }
-          &:active {
+          &.active {
             color: var(--white);
             font-weight: bold;
           }
 
           &.active::after {
-            content: "0";
+            content: '';
             height: 3px;
             border-radius: 3px 3px 0 0;
             width: 100%;
@@ -49,5 +49,9 @@
             background: var(--yellow-500);
           }
         }
+    }
+
+    button {
+      margin-left: auto;
     }
 }
