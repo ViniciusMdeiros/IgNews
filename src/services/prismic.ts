@@ -6,7 +6,7 @@ export function getPrismicClient() {
     const client = prismic.createClient(
         repositoryName,
         {
-            accessToken: process.env.PRISMIC_ACCESS_TOKEN
+            accessToken: process.env.PRISMIC_ACCESS_TOKEN,
         }
     )
 
